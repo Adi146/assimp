@@ -1,6 +1,7 @@
 package assimp
 
-//#cgo pkg-config: assimp
+//#cgo windows LDFLAGS: -lassimp
+//#cgo linux freebsd darwin openbsd pkg-config: assimp
 //#include <assimp/mesh.h>
 //#include <string.h>
 import "C"

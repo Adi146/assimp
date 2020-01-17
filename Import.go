@@ -1,6 +1,7 @@
 package assimp
 
-//#cgo pkg-config: assimp
+//#cgo windows LDFLAGS: -lassimp
+//#cgo linux freebsd darwin openbsd pkg-config: assimp
 //#include <stdlib.h>
 //#include "Import.h"
 //#include "assimp/postprocess.h"

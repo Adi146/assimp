@@ -1,7 +1,8 @@
 package assimp
 
 /*
-#cgo pkg-config: assimp
+#cgo windows LDFLAGS: -lassimp
+#cgo linux freebsd darwin openbsd pkg-config: assimp
 #include <assimp/material.h>
 #include <stdlib.h>
 */
